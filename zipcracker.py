@@ -1,8 +1,8 @@
 #!/bin/python3
 
 
-import zipfile
-from tqdm import tqdm
+import zipfile          # zipfile is a module to work with zip format files
+from tqdm import tqdm   # tqdm is a module for status bar 
 
 
 # the password list path you want to use, must be available in the current directory
