@@ -6,7 +6,7 @@ echo '#####                     (30%)\r'
 sleep 1
 echo '########                  (60%)\r'
 echo "Press any key for update."
-nmap -p $(cat /tmp/anmap.txt) -A --min-rate 10000 $1
+nmap -p $(cat /tmp/anmap.txt) -sV -sC --min-rate 10000 $1
 echo '#######################   (100%)\r'
 echo '\n'
 
