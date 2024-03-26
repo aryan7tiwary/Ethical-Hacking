@@ -1,4 +1,4 @@
-from scapy import *
+from scapy.all import *
 
 # list of all ports to be scanned
 ports = [25,80,53,443,445,8080,8443]
